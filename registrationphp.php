@@ -2,7 +2,7 @@
 
 <head>
       <title>Redirecting</title>
-      <meta http-equiv = "refresh" content = "2; url = home.php" />
+      <meta http-equiv = "refresh" content = "3; url = home.php" />
 </head>
 <body>
 

@@ -27,7 +27,7 @@ if( (int)$artwork_id == $artwork_id && (int)$artwork_id > 0 ) {
       <div class='column-xs-4 column-md-6'>
         <a href='#' class='toggle-nav'>Menu <i class='ion-navicon-round'></i></a>
         <ul>
-          <li class='nav-item'><a href='register.php'>Logout</a></li>
+          <li class='nav-item'><a href='index.php'>Logout</a></li>
           <li class='nav-item'><a href='home.php'>Home</a></li>
           
           <li class='nav-item'><a href='#'>Cart (0)</a></li>
@@ -72,18 +72,18 @@ if( (int)$artwork_id == $artwork_id && (int)$artwork_id > 0 ) {
       </div>
       <div class='column-xs-12 column-md-4'>
         <img src='https://ae01.alicdn.com/kf/Hb29e735ce9a3449bb9616620582921ce3.jpg'>
-        <h4>Succulent</h4>
-        <p class='price'>$19.99</p>
+        <h4>Bleach Art</h4>
+        <p class='price'>$20.00</p>
       </div>
       <div class='column-xs-12 column-md-4'>
         <img src='https://pm1.narvii.com/7054/ce28de9f19597a08340c681f18d56c059487ca49r1-1678-1678v2_hq.jpg'>
-        <h4>Terranium</h4>
-        <p class='price'>$19.99</p>
+        <h4>Painting Pain</h4>
+        <p class='price'>$29.99</p>
       </div>
       <div class='column-xs-12 column-md-4'>
         <img src='https://ae01.alicdn.com/kf/HTB1i.7.z29TBuNjy1zbq6xpepXau/Black-Clover-Art-Silk-Fabric-Poster-Wall-Decor-12x18-20x30Inch.jpg'>
-        <h4>Cactus</h4>
-        <p class='price'>$19.99</p>
+        <h4>Black Clover</h4>
+        <p class='price'>$39.99</p>
       </div>
     </div>
   </div>

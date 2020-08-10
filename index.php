@@ -1,34 +1,62 @@
+<?php
+require 'db.php';
+?>
+<link rel="stylesheet" href="css/home.css">
+
 <html>
 <body>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
 
-<form action="welcome.php" method="post">
+<br>
+<br>
+<br>
+<br>
+
+<h1>Create an Account</h1>
+
+<form action="registrationphp.php" method="post">
+<div>
+
   <label for="username">Username:</label><br>
   <input type="text" id="username" name="username"><br>
   <label for="pwd">Password:</label><br>
   <input type="password" id="pwd" name="pwd"><br>
-  <label for="num">select 10 for artist and 20 for customer:</label><br>
+  <label for="num">Select Account Role:</label><br>
   <select id="num" name="roleid">
-    <option value=10>10</option>
-    <option value=20>20</option>
+    <option value="10">Artist</option>
+    <option value="20">Customer</option>
   </select><br>
-  <label for="email">E-mail:</label><br>
+  <label for="email">Email:</label><br>
   <input type="email" id="email" name="emailadd"><br>
-  <label for="fname">First name:</label><br>
+  <label for="fname">First Name:</label><br>
   <input type="text" id="fname" name="fname"><br>
-  <label for="lname">last name:</label><br>
+  <label for="lname">Last Name:</label><br>
   <input type="text" id="lname" name="lname"><br>
-  <label for="bdate">Birth date:</label><br>
+  <label for="bdate">Birth Date:</label><br>
   <input type="date" id="bdate" name="bdate"><br>
+  <label for="gender">Gender:</label><br>
   <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
   <input type="radio" id="female" name="gender" value="female">
   <label for="female">Female</label><br>
   <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label><br>
-  <label for="phone">Enter a phone number:</label><br><br>
+  <label for="other">Other</label><br><br>
+  <label for="phone">Phone Number:</label><br>
   <input type="number" id="phone" name="phone" placeholder="2033908353"><br><br>
-<input type="submit">
+  <input type="submit">
+  </div>
 </form>
+
+<div>
+<form action="login.php">
+<p> Already have an account? <button type="submit">Log In</button> </p>
+
+</div>
+ 
 
 </body>
 </html>
